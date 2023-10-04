@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "nombre": "Hamburguesa Clásica",
+      "precio": 19990
+    },
+    {
+      "id": 2,
+      "nombre": "Hamburguesa BBQ",
+      "precio": 15000
+    },
+    {
+      "id": 3,
+      "nombre": "Hamburguesa Vegetariana",
+      "precio": 24990
+    },
+    {
+      "id": 4,
+      "nombre": "Hamburguesa de Pollo",
+      "precio": 8990
+    }
+  ]
+  

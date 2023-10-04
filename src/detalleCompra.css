@@ -1,0 +1,92 @@
+/* Estilo para el contenedor principal */
+.detalleCompra {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Estilo para el lado izquierdo (65%) */
+  .left-side {
+    flex: 6.5;
+    background-color: #000;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente los elementos */
+    justify-content: center; /* Centrar verticalmente los elementos */
+  }
+  
+  /* Estilo para el rectángulo superior (3 veces más ancho) */
+  .rectangle-top {
+    width: 80%; /* Ancho del rectangulo superior */
+    height: 300px; /* Altura del rectángulo superior */
+    background-color: #171322;
+    margin-bottom: 20px; /* Espacio entre los rectángulos */
+    margin-top: 150px;
+    border-radius: 10px;
+    color:white;
+  }
+  
+  /* Estilo para el rectángulo inferior */
+  .rectangle-bottom {
+    width: 80%; /* Ancho del rectángulo inferior */
+    height: 100px; /* Altura del rectángulo inferior */
+    background-color: #171322;
+    border-radius: 10px;
+    color:white;
+    display: flex;
+    justify-content: space-around; /* Centra los botones horizontalmente */
+    align-items: center; /* Centra los botones verticalmente */
+    /* Resto de tus estilos permanecen igual */
+  }
+  
+  /* Estilo para el lado derecho (35%) */
+  .right-side {
+    flex: 3.5;
+    background-color: #171322;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Resto de tus estilos permanecen igual */
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  .App ul li {
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Estilo para los botones */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: white;
+    background-color: #171322;
+    border: none;
+    text-decoration: underline;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+  }
+  
+  .product-image {
+    width: 50px; /* Cambia esto al ancho que desees */
+    height: 50px; /* Cambia esto a la altura que desees */
+    margin-right: 10px; /* Espacio a la derecha de la imagen */
+    margin-left: 10px;
+    margin-top: 10px;
+  }
